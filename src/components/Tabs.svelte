@@ -1,15 +1,10 @@
 <script>
     import { createEventDispatcher } from "svelte";
-    /**
-     * @type {any}
-     */
-     export let tabs;
-    /**
-     * @type {any}
-     */
-     export let activeTab;
 
-     const dispatcher = createEventDispatcher();
+    export let tabs;
+    export let activeTab;
+
+    const dispatcher = createEventDispatcher();
 </script>
 
 <div class="tabs">
@@ -33,14 +28,17 @@
         list-style-type: none;
     }
     li {
-        margin: 0 16px;
+        margin: 0 14px;
         font-size: 18px;
-        color: #555;
+        color: #fff;
         cursor: pointer;
     }
+    li div {
+        padding: 8px;
+    }
     .active {
-        color: #d91b42;
-        border-bottom: 2px solid #d91b42;
-        padding-bottom: 8px;
+        color: #3aa6be;
+        background: #fff;
+        border-radius: 6px;
     }
 </style>

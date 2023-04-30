@@ -6,11 +6,12 @@
     .copyright {
         font-size: 14px;
         display: inline-block;
-        padding: 14px;
-        border-top: 2px solid rgb(54, 75, 113);
+        padding: 12px;
+        border-top: 2px solid rgb(58 166 190);
+        color: rgb(58 166 190);
     }
     footer {
-        padding: 40px;
+        padding: 60px;
         text-align: center;
     }
 </style>
