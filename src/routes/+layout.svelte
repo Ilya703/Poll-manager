@@ -1,5 +1,4 @@
 <script>
-    export const prerender = true;
     import CreatePoll from "../components/CreatePoll.svelte";
     import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
