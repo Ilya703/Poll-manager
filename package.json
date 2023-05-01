@@ -8,7 +8,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/adapter-static": "^1.0.0-next.50",
 		"@sveltejs/kit": "^1.5.0",
 		"gh-pages": "^5.0.0",
 		"svelte": "^3.54.0",
@@ -20,5 +20,8 @@
 			"parser": "forked-import-sort-parser-babylon",
 			"style": "module-tsconfig"
 		}
+	},
+	"dependencies": {
+		"@sveltejs/adapter-auto": "^2.0.1"
 	}
 }
